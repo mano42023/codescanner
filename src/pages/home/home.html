@@ -7,14 +7,9 @@
 </ion-header>
 
 <ion-content padding>
- <button ion-button (click)="scan()">Scan ... </button>
-    <div *ngIf="scanData">
-        <p>Scanned Text : </p>
-        <p>Scanned Format : </p>
-
-    </div>
-
-
-<ion-input type="text" [(ngModel)]="encodeData" ></ion-input>   
-     <button ion-button (click)="encodeText()">Encode Text</button>
+<div class="row">
+	<div class="col text-center">
+		<button id ="text" ion-button round (click)="scan()">Scan Barcode</button>
+	</div>
+</div>
 </ion-content>
