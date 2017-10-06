@@ -1,17 +1,21 @@
 
 
 <ion-content padding center text-center>
-<div class="row">
+
+<div class="scroll">
+<div class="row col-center" >
 	<div class="col text-center">
 		<button id ="text" ion-button round (click)="scan()">Scan Barcode</button>
 	</div>
 </div>
-
-<div class="row">
+<br>
+<div class="row ">
 	<div class="col text-center">
 		<ion-list> <ion-item> <ion-input type="text"
-			[(ngModel)]="barcode" placeholder="Enter Product Code"> </ion-input>
+			[(ngModel)]="barcode" placeholder=""> </ion-input>
 		</ion-item> </ion-list>
 	</div>
 </div>
+</div>
+
 </ion-content>
