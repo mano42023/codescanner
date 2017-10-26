@@ -1,8 +1,12 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
-
 ## How to use this template
 
+##step 1 :
 git clone git@github.com:mano42023/ionic-Barcode-and-QR-scanner.git
-          (or)
+    (or)
 download the zip and extra
 
+##step 2
+cd  ionic-Barcode-and-QR-scanner-master
+
+##step 3:
+ionic serve
